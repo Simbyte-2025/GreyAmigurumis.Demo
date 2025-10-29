@@ -21,11 +21,15 @@ export default {
     "hero-subtitle",
     "hero-cta",
     "font-heading",
+    {
+      pattern: /^font-/,
+    },
   ],
   theme: { 
     extend: {
       fontFamily: {
         heading: ['"Moon Flower"', 'cursive'],
+        display: ['"Moon Flower"', 'cursive'],
       },
     }
   },

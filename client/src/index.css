@@ -272,6 +272,10 @@
     font-family: var(--font-display);
   }
 
+  .font-heading {
+    font-family: 'Moon Flower', cursive !important;
+  }
+
   /* ========================================
      TARJETAS DE PRODUCTO - GENTLE LIFT
   ======================================== */
