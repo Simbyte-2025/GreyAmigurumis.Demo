@@ -29,7 +29,7 @@ export default function Footer() {
               GrayAmigurumis
             </h3>
             <p className="text-base sm:text-lg leading-relaxed mb-5 sm:mb-6 opacity-90">
-              Confecciones artesanales de GrayAmigurumis hechas con amor desde Punta Arenas, Chile.
+              Confecciones artesanales hechas con amor desde Punta Arenas, Chile.
             </p>
             {/* Iconos de redes sociales */}
             <div className="flex gap-4 text-2xl sm:text-3xl">
@@ -40,7 +40,6 @@ export default function Footer() {
                 className="transition-opacity hover:opacity-70 p-1"
                 aria-label="Instagram"
                 title="Visitar Instagram"
-                style={{color: '#FFF9F5'}}
               >
                 <InstagramIcon size={28} title="Instagram" className="text-white" />
               </a>
@@ -51,11 +50,8 @@ export default function Footer() {
                 className="transition-opacity hover:opacity-70 p-1"
                 aria-label="WhatsApp"
                 title="Contactar por WhatsApp"
-                style={{color: '#FFF9F5'}}
               >
-                <div style={{ filter: 'brightness(0) invert(1)' }}>
-                  <WhatsAppIcon size={28} title="WhatsApp" />
-                </div>
+                <WhatsAppIcon size={28} title="WhatsApp" />
               </a>
             </div>
           </div>
