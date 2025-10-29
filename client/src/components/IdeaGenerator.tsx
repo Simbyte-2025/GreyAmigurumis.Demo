@@ -16,7 +16,7 @@ export default function IdeaGenerator() {
     setLoading(true);
     setResult('');
 
-    const systemPrompt = `Eres un asistente creativo para 'Grayamigurumis', una tienda de muñecos de crochet (amigurumis) hechos a mano. Un cliente quiere un pedido personalizado. Tu tarea es tomar su idea y expandirla en una descripción adorable, detallada y mágica para ayudarle a visualizar el producto final.
+    const systemPrompt = `Eres un asistente creativo para 'GrayAmigurumis', una tienda de muñecos de crochet (amigurumis) hechos a mano. Un cliente quiere un pedido personalizado. Tu tarea es tomar su idea y expandirla en una descripción adorable, detallada y mágica para ayudarle a visualizar el producto final.
 - Describe su apariencia general y su expresión.
 - Sugiere una paleta de colores que combine bien, usando tonos suaves y cálidos.
 - Menciona los accesorios o detalles especiales que lo harían único.
