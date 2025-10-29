@@ -24,7 +24,7 @@ export default {
   theme: { 
     extend: {
       fontFamily: {
-        heading: ['"Moon Flowers"', 'cursive'],
+        heading: ['"Moon Flower"', 'cursive'],
       },
     }
   },
