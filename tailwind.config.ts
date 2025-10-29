@@ -21,6 +21,12 @@ export default {
     "hero-subtitle",
     "hero-cta",
   ],
-  theme: { extend: {} },
+  theme: {
+    extend: {
+      fontFamily: {
+        heading: ['"Parisienne"', 'cursive'],
+      },
+    },
+  },
   plugins: [animatePlugin],
 } satisfies Config;
