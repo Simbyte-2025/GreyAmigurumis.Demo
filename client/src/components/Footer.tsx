@@ -25,11 +25,11 @@ export default function Footer() {
           
           {/* Columna 1: GrayAmigurumis */}
           <div>
-            <h3 className="font-heading text-xl sm:text-2xl mb-4">
+            <h3 className="font-heading text-2xl sm:text-3xl mb-4">
               GrayAmigurumis
             </h3>
             <p className="text-base sm:text-lg leading-relaxed mb-5 sm:mb-6 opacity-90">
-              Confecciones artesanales hechas con amor desde Punta Arenas, Chile.
+              Confecciones artesanales de GrayAmigurumis hechas con amor desde Punta Arenas, Chile.
             </p>
             {/* Iconos de redes sociales */}
             <div className="flex gap-4 text-2xl sm:text-3xl">
@@ -40,14 +40,9 @@ export default function Footer() {
                 className="transition-opacity hover:opacity-70 p-1"
                 aria-label="Instagram"
                 title="Visitar Instagram"
+                style={{color: '#FFF9F5'}}
               >
-                <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
-                  alt="Instagram"
-                  width={32}
-                  height={32}
-                  style={{ display: 'block', objectFit: 'contain' }}
-                />
+                <InstagramIcon size={28} title="Instagram" className="text-white" />
               </a>
               <a 
                 href={`https://wa.me/${whatsappNumber}?text=${message}`}
@@ -56,21 +51,18 @@ export default function Footer() {
                 className="transition-opacity hover:opacity-70 p-1"
                 aria-label="WhatsApp"
                 title="Contactar por WhatsApp"
+                style={{color: '#FFF9F5'}}
               >
-                <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-                  alt="WhatsApp"
-                  width={32}
-                  height={32}
-                  style={{ display: 'block', objectFit: 'contain' }}
-                />
+                <div style={{ filter: 'brightness(0) invert(1)' }}>
+                  <WhatsAppIcon size={28} title="WhatsApp" />
+                </div>
               </a>
             </div>
           </div>
           
           {/* Columna 2: Enlaces Rápidos */}
           <div>
-            <h3 className="font-heading text-xl sm:text-2xl mb-4">
+            <h3 className="font-heading text-2xl sm:text-3xl mb-4">
               Enlaces Rápidos
             </h3>
             <nav className="flex flex-col space-y-2 sm:space-y-3">
@@ -97,7 +89,7 @@ export default function Footer() {
           
           {/* Columna 3: Ubicación */}
           <div>
-            <h3 className="font-heading text-xl sm:text-2xl mb-4">
+            <h3 className="font-heading text-2xl sm:text-3xl mb-4">
               Ubicación
             </h3>
             <div className="flex items-start gap-2 text-base sm:text-lg leading-relaxed opacity-90">

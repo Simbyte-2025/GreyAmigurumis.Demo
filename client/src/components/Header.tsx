@@ -17,11 +17,11 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 shadow-md h-14 sm:h-16 md:h-18 lg:h-20" style={{backgroundColor: 'rgba(244, 199, 212, 0.8)', backdropFilter: 'blur(12px)'}}>
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#" className="flex items-center gap-2 sm:gap-3 pl-3 sm:pl-4 md:pl-6">
+      <header className="sticky top-0 z-50 shadow-md h-16 sm:h-18 md:h-20" style={{backgroundColor: 'rgba(244, 199, 212, 0.8)', backdropFilter: 'blur(12px)'}}>
+        <div className="container mx-auto px-4 sm:px-6 h-full flex justify-between items-center">
+          <a href="#" className="flex items-center gap-3 sm:gap-4">
             <motion.div 
-              className="h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14 lg:h-16 lg:w-16 object-contain rounded-full border-2 border-white/50 flex items-center justify-center inline-block select-none"
+              className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 rounded-full border-2 border-white/50 flex items-center justify-center inline-block"
               style={{ backgroundColor: '#FFF9F5' }}
               initial={animationVariants.floatAnimation.initial}
               animate={animationVariants.floatAnimation.animate}
@@ -29,14 +29,14 @@ export default function Header() {
               <img
                 src="/logo.png" 
                 alt="GrayAmigurumis Logo"
-                className="h-full w-full object-contain rounded-full select-none"
+                className="h-full w-full object-contain aspect-square rounded-full"
                 onError={(e) => { 
                   const target = e.currentTarget;
-                  target.src = 'https://placehold.co/48x48/FFF9F5/4A5568?text=GA'; 
+                  target.src = 'https://placehold.co/64x64/FFF9F5/4A5568?text=GA'; 
                 }}
               />
             </motion.div>
-            <span className="font-heading text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-normal text-white drop-shadow-sm" style={{textShadow: '1px 1px 2px rgba(74, 85, 104, 0.5)'}}>
+            <span className="font-heading text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-sm" style={{textShadow: '1px 1px 2px rgba(74, 85, 104, 0.5)'}}>
               GrayAmigurumis
             </span>
           </a>
@@ -67,13 +67,7 @@ export default function Header() {
               title="Contactar por WhatsApp"
               whileHover={animationVariants.heartbeat}
             >
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-                alt="WhatsApp"
-                width={20}
-                height={20}
-                style={{ display: 'block', objectFit: 'contain' }}
-              />
+              <WhatsAppIcon size={20} title="WhatsApp" />
             </motion.a>
           </div>
 

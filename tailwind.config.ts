@@ -21,12 +21,12 @@ export default {
     "hero-subtitle",
     "hero-cta",
   ],
-  theme: {
+  theme: { 
     extend: {
       fontFamily: {
-        heading: ['"Parisienne"', 'cursive'],
+        heading: ['"Moon Flowers"', 'cursive'],
       },
-    },
+    }
   },
   plugins: [animatePlugin],
 } satisfies Config;
