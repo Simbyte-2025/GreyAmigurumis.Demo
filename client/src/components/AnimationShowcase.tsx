@@ -6,7 +6,7 @@
  * Componente de demostración que muestra todas las 13 animaciones del sistema
  * en acción. Útil para testing y como referencia de implementación.
  * 
- * @author Gray Amigurumis Team
+ * @author GrayAmigurumis Team
  */
 
 import { useState } from "react";
@@ -93,7 +93,7 @@ export default function AnimationShowcase() {
   return (
     <div style={{ padding: "40px", maxWidth: "1200px", margin: "0 auto" }}>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>
-        🎨 Sistema de Animaciones - Gray Amigurumis
+        🎨 Sistema de Animaciones - GrayAmigurumis
       </h1>
 
       {/* ================================================================

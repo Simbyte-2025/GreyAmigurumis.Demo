@@ -53,7 +53,7 @@ export default function ChatWindow({
           <span role="img" aria-label="teddy bear">
             🧸
           </span>
-          <span>Asistente Gray Amigurumis</span>
+          <span>Asistente GrayAmigurumis</span>
         </div>
         <button
           className="chat-header-close"

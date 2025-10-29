@@ -8,7 +8,7 @@
  * 
  * Incluye 13 sistemas de animación refinados del demo original.
  * 
- * @author Gray Amigurumis Team
+ * @author GrayAmigurumis Team
  * @version 2.0.0
  */
 
