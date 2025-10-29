@@ -20,6 +20,7 @@ export default {
     "hero-title",
     "hero-subtitle",
     "hero-cta",
+    "font-heading",
   ],
   theme: { 
     extend: {
